@@ -65,19 +65,5 @@ user_input = input("enter your question")
 response = graph.invoke({"question": user_input})
 print(response["answer"])
 
-'''
-
-llm = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
-
-
-
-
-db=Chroma.from_documents(chunks,llm)
-
-text = input("Enter the text:")
-embedding_vector = llm.embed_query(text)
-docs = db.similarity_search_by_vector(embedding_vector)
-print(docs)
-'''
 
 

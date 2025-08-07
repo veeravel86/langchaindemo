@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d484c616-86bc-4d59-af9e-086b250b7717" name="Changes" comment="4th  commit">
-      <change afterPath="$PROJECT_DIR$/langchain_simple_rag.py" afterDir="false" />
+    <list default="true" id="d484c616-86bc-4d59-af9e-086b250b7717" name="Changes" comment="simpleRAG_From_Official_Langchain">
+      <change afterPath="$PROJECT_DIR$/langchain_rag_with_History.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobsearch_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/jobsearch_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langchain_simple_rag.py" beforeDir="false" afterPath="$PROJECT_DIR$/langchain_simple_rag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "veeravel86"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/veeravel86/langchaindemo.git",
+    "accountId": "6478b71b-5286-4deb-ab07-588eb0dd1121"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -32,26 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.gemma_demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jobsearch_helper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.jobsearch_helper_using_retriever.executor&quot;: &quot;Run&quot;,
-    &quot;Python.openai_demo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.gemma_demo.executor": "Run",
+    "Python.jobsearch_helper.executor": "Run",
+    "Python.jobsearch_helper_using_retriever.executor": "Run",
+    "Python.langchain_rag_with_History.executor": "Run",
+    "Python.langchain_simple_rag.executor": "Run",
+    "Python.openai_demo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,7 +86,7 @@
       <workItem from="1754162719692" duration="14000" />
       <workItem from="1754200304962" duration="2519000" />
       <workItem from="1754245960140" duration="9080000" />
-      <workItem from="1754541711487" duration="3525000" />
+      <workItem from="1754541711487" duration="7896000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -138,18 +152,38 @@
       <option name="project" value="LOCAL" />
       <updated>1754395387551</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="simpleRAG_From_Official_Langchain">
+      <option name="closed" value="true" />
+      <created>1754545303313</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754545303313</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="3rd  commit" />
     <MESSAGE value="4th  commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="4th  commit" />
+    <MESSAGE value="simpleRAG_From_Official_Langchain" />
+    <option name="LAST_COMMIT_MESSAGE" value="simpleRAG_From_Official_Langchain" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -164,6 +198,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/langchaindemo$jobsearch_helper.coverage" NAME="jobsearch_helper Coverage Results" MODIFIED="1754545006985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/langchaindemo$langchain_simple_rag.coverage" NAME="langchain_simple_rag Coverage Results" MODIFIED="1754546088357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/langchaindemo$langchain_rag_with_History.coverage" NAME="langchain_rag_with_History Coverage Results" MODIFIED="1754578668178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/langchaindemo$openai_demo.coverage" NAME="openai_demo Coverage Results" MODIFIED="1754112296465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/langchaindemo$jobsearch_helper_using_retriever.coverage" NAME="jobsearch_helper_using_retriever Coverage Results" MODIFIED="1754395779397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/langchaindemo$gemma_demo.coverage" NAME="gemma_demo Coverage Results" MODIFIED="1754113249712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
