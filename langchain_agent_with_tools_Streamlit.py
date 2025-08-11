@@ -74,7 +74,7 @@ def get_drive_time_minutes(addresses: str) -> str:
         minutes = seconds / 60
         return f"{minutes:.1f}"
     except Exception:
-        return "Unexpected API response format."
+        return "Unexpected API response format....."
 
 
 @tool
